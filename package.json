@@ -4,7 +4,7 @@
   "description": "mern app",
   "main": "index.js",
   "scripts": {
-    "test": "(cd ./frontend) && (npm test)",
+    "test": "cd ./frontend; npm test;",
     "start": "nodemon backend/index.js"
   },
   "author": "Jeff",
