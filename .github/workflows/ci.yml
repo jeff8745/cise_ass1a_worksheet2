@@ -27,8 +27,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: To Frontend
+      run: cd ./frontend/
+
     - name: Run the tests
       run: npm test
+
+    - name: To Root
+      run: cd..
 
     - name: Build
       run: npm run build
