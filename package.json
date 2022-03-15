@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cd ./frontend; npm test;",
     "start": "nodemon backend/index.js",
-    "postinstall": "cd ./frontend; npm install;"
+    "postinstall": "cd ./frontend; npm install;",
+    "build": "cd ./frontend; npm build;"
   },
   "author": "Jeff",
   "license": "ISC",
